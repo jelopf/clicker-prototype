@@ -73,7 +73,7 @@ MonoBehaviour:
     pixelRatioValue: 1.3
     developerBuild: 0
   platformInfo:
-    localProdGameId: 
+    localProdGameId: 626636
     localProdPort: 8080
     localProdUseCsp: 1
     ownHost: 0

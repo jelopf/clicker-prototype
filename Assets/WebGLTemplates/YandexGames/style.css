@@ -22,14 +22,22 @@ body {
 #unity-container {
     width: 100%;
     height: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #ADADAD;
 }
 
 #unity-canvas {
-    width: 100%;
-    height: 100%;
-    background: {{{ BACKGROUND_COLOR }}};
-	touch-action: none;
+    @media (hover: hover) {
+        aspect-ratio: 414 / 736;
+        height: 100%;
+        background: #ADADAD;
+    }
+    @media (hover: none) {
+        width: 100%;
+        height: 100%;
+        background: #ADADAD;
+    }
 }
 
 #loading-cover {
